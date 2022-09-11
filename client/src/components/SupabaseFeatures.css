@@ -1,0 +1,71 @@
+.flex-container {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: stretch;
+    }
+
+.flex-item_one {
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 6 1 auto;
+    -ms-flex: 6 1 auto;
+    flex: 6 1 auto;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+    }
+
+.flex-item_two {
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+}
+
+.x_box {
+    width: 100%;
+    height: 100%;
+    background-color: #ff8a8a;;
+    text-align: center;
+    line-height: 600%;
+    cursor: pointer;
+}
+
+.edit_box{
+    width: 100%;
+    height: 100%;
+    background-color: #ffd383;
+    text-align: center;
+    line-height: 600%;
+    cursor: pointer;
+}
+
+.save_box{
+    width: 100%;
+    height: 100%;
+    background-color: #9bff9b;
+    text-align: center;
+    line-height: 600%;
+    cursor: pointer;
+}

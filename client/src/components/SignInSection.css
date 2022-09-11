@@ -1,0 +1,33 @@
+.menu {
+    background-color: darkgray;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu_button{
+    margin-right: 1em;
+    color: pink !important;
+    text-decoration: none;
+    
+}
+
+.avatar{
+        /* make a square container */
+        width: 2em;
+        height: 2em;
+    
+        /* fill the container, preserving aspect ratio, and cropping to fit */
+        background-size: cover;
+    
+        /* center the image vertically and horizontally */
+        background-position: top center;
+    
+        /* round the edges to a circle with border radius 1/2 container size */
+        border-radius: 50%;
+
+        -webkit-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
+        -moz-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
+        box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
+
+        margin-top: -2px;
+}
